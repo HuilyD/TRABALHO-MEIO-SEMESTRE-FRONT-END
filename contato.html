@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Dito Lambari</title>
+<meta charset="utf-8">
+<link href="estilo.css" rel="stylesheet"/>
+<script>
+    function funcao1()
+    {
+        alert("Obrigado! entraremos em contato em breve!");
+    }
+</script>
+
+</head>
+<body class="contato">
+	<header class="topo">
+		<hgroup>
+			<h1><a href="/">Entre em contato!</a></h1>
+			<div class="third"><form action="contato.html" method="POST">
+				Nome:<br>
+				<input type="text" name="nome">
+				<br><br>
+				
+				Telefone:<br>
+				<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+				<br><br>
+				
+				Email:<br>
+				<input type="email" name="email">
+				<br><br>
+				
+				<input type="submit" onclick="funcao1()">
+			</form></div>
+		</hgroup>
+	<nav>
+	  <ul>
+		<li><a class="corrente" href="index.html">Home</a></li>
+		<li><a href="sobre.html">Sobre</a></li>
+		<li><a href="receitas.html">Receitas</a></li>
+		<li><a href="contato.html">Contato</a></li>
+	  </ul>
+	</nav>
+</header>
+	<!-- mais conteudo -->
+	
+<div class="atendente"> <img src="atendente.jpg" alt=" " width="850" height="540"></div> 
+<footer class="rodape">
+	<!-- conteudo do rodape do site -->
+</footer>
+</body>
+</html>
